@@ -16,7 +16,7 @@ class OrdersAdd extends Controller
         $dataInsert->type=$req->input('type');
         $dataInsert->description=$req->input('description');
         $dataInsert->value=$req->input('value');
-        $dataInsert->date=date('d/m/Y H:i:s');
+        $dataInsert->date=date('Y-m-d H:i:s');
         $dataInsert->save();
         $req->session()->flash('status','Pedido adicionado com sucesso!');
         return redirect('list');

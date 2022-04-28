@@ -30,16 +30,16 @@
             <td>{{$item->adress}}</td>
                 <td>
                     <a class="btn btn-success mr-2" href="/addOrder/{{$item->id}}">
-                        <i title="Adicionar pedidos" class="fas fa-dollar-sign"></i>
+                        Novo
                     </a>
                     <a class="btn btn-outline-info" href="/orders/{{$item->id}}">
-                        <i title="Ver pedidos" class="far fa-eye"></i>
+                        Pedidos
                     </a>
                     <a class="btn btn-outline-primary mr-2 ml-2" href="/edit/{{$item->id}}">
-                        <i title="Editar cliente" class="far fa-edit"></i>
+                        Editar
                     </a>
                     <a class="btn btn-outline-danger" href="/delete/{{$item->id}}">
-                        <i title="Apagar cliente" class="far fa-trash-alt"></i>
+                        Apagar
                     </a>
                 </td>
           </tr>
